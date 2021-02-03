@@ -5,7 +5,7 @@
 5. 
 ```
 var i=0;
-for (i=0;i<=5;i++)
+for (i=0;i<=4;i++)
 {
 document.write("Число i равно " + i);
 document.write("<br />");
