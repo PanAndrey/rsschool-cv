@@ -11,3 +11,6 @@ document.write("Число i равно " + i);
 document.write("<br />");
 }
 ```
+6.    
+7. After 3 years of Saratov State Medical University I moved to China to study chinese in Shanghai in University of International Bussines and Economics
+8. Upper-intermediate. I have been learning english for 10 years. I had to have frequent contact with native speakers because of my studies abroad 
