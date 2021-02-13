@@ -11,36 +11,65 @@
 
 <body>
     <div class="site-container">
-        <header>
-            <h1 class="container">rsschool-cv</h1>
+        <header class="header">
+            <nav class="header__nav container">
+                <ul class="nav__list-header">
+                    <li class="nav__item-header"><a href="#" class="nav__link-header">Услуги</a></li>
+                    <li class="nav__item-header"><a href="#" class="nav__link-header">Портфолио</a></li>
+                </ul>
+            </nav>
         </header>
         <main>
-            <section class="info container">
-                <h2>Curriculum vitae</h2>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
-                    alt="image not found">
-                <ol>
-                    <li>Pan Andrew</li>
-                    <li>e-mail: panadr09@gmail.com</li>
-                    <li>I want to realize myself in IT, to be engaged in interesting and socially useful projects. I’m
-                        ready
-                        to improve myself and learn something new</li>
-                    <li>I just started to learn programming</li>
-                    <li>
-                        <div class="code">var i=0;<br>
-                            for (i=0;i&lt;=4;i++)<br>{<br>document.write("Число i равно " + i);<br>
-                            document.write(" &lt;br /&gt;");<br>}
-                        </div>
-                    </li>
-                    <li></li>
-                    <li>After 3 years of Saratov State Medical University I moved to China to study chinese in Shanghai
-                        in
-                        University of International Bussines and Economics</li>
-                    <li>Upper-intermediate. I have been learning english for 10 years. I had to have frequent contact
-                        with
-                        native speakers because of my studies abroad</li>
-                </ol>
-            </section>
+            <div class="container">
+                <section class="section__left">
+                    <div class="photo">
+                        <img class="photo"
+                            src="https://www.roadrunnerrecords.com/sites/g/files/g2000005056/f/Sample-image10-highres.jpg"
+                            alt="image not found">
+                    </div>
+                    <h1>PAN ANDREW</h1>
+                    <ul class="about">
+                        <li class="about__personal-summary">
+                            <h2 class="personal-summary__title">PERSONAL SUMMARY</h2>
+                            <div class="personal-summary__text">I want to realize myself in IT, to be engaged in
+                                interesting and socially useful projects. I’m ready to improve myself and learn
+                                something new</div>
+                        </li>
+                        <li class="about__skills">
+                            <h2 class="skills__title">CORE SKILLS</h2>
+                            <div class="skills__text">I just started to learn programming</div>
+                        </li>
+
+                    </ul>
+                </section>
+                <section class="section__right">
+                    <ul>
+                        <li class="education">
+                            <h2>EDUCATION</h2>
+                            <div class="education__text">After 3 years of Saratov State Medical University I moved to
+                                China
+                                to study chinese in Shanghai in University of International Bussines and Economics</div>
+                        </li>
+                        <li class="code">
+                            <h2 class="code__title">CODE EXAMPLE</h2>
+                            <div class="code__text">var i=0;<br>
+                                for (i=0;i&lt;=4;i++)<br>{<br>document.write("Число i равно " + i);<br>
+                                document.write(" &lt;br /&gt;");<br>}</div>
+                        </li>
+                        <li class="english">
+                            <h2 class="english__title">ENGLISH</h2>
+                            <div class="english__text">Upper-intermediate. I have been learning english for 10 years. I
+                                had
+                                to have frequent contact with native speakers because of my studies abroad</div>
+                        </li>
+                        <li class="about__contacts">
+                            <h2 class="contacts__title">CONTACT DETAILS</h2>
+                            <div class="contacts__phone">phone: 8 999 999 99 99</div>
+                            <div class="contcts__email">e-mail: panadr09@gmail.com</div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
         </main>
         <footer class="footer">
             <div class="footer__container container">
