@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="script.js"></script>
+    
     <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script> -->
@@ -17,8 +20,8 @@
         <header class="header">
             <nav class="header__nav container">
                 <ul class="nav__list-header">
-                    <li class="nav__item-header"><a href="#" class="nav__link-header">Услуги</a></li>
-                    <li class="nav__item-header"><a href="#" class="nav__link-header">Портфолио</a></li>
+                    <li class="nav__item-header"><a href="#about__contacts" class="nav__link-header">CONTACTS</a></li>
+                    <li class="nav__item-header"><a href="#projects" class="nav__link-header">PROJECTS</a></li>
                 </ul>
             </nav>
         </header>
@@ -32,7 +35,7 @@
                     </div>
                     <h1>PAN ANDREW</h1>
                     <ul class="about">
-                      <li class="about__contacts">
+                      <li id="about__contacts">
                         <h2 class="contacts__title">CONTACT DETAILS</h2>
                         <div class="contacts__phone">phone: 8 999 999 99 99</div>
                         <div class="contcts__email">e-mail: panadr09@gmail.com</div>
@@ -46,7 +49,7 @@
                               <li class="skills__item">JavaScript</li>
                               <li class="skills__item">Git</li>
                               <li class="skills__item">OOP</li>
-                              <li class="skills__item">English: A2+</li>
+                              <li class="skills__item">English: B2</li>
                             </ul>
                         </li>
 
@@ -63,11 +66,18 @@
                         <li class="code">
                             <h2 class="code__title">CODE EXAMPLE</h2>
                             <code class="code__text">
-                               var i=0;<br>
+                                <br>var i=0;<br>
                                 for (i=0;i&lt;=4;i++)<br>{<br>document.write("Число i равно " + i);<br>
                                 document.write(" &lt;br /&gt;");<br>}
                                 
                               </code>
+                        </li>
+                        <li id="projects">
+                            <h2 class="projects__title">RECENT PROJECTS</h2>
+                            <ul class="projects__text">
+                                <li><a class="projects__link" href="https://rolling-scopes-school.github.io/panandrey-JSFE2021Q1/wildlife/" target="_blank">Wildlife</a></li>
+                                <li><a class="projects__link" href="https://rolling-scopes-school.github.io/panandrey-JSFE2021Q1/virtual-piano/" target="_blank">Virtual Piano</a></li>
+                            </ul>
                         </li>
                         <li class="english">
                             <h2 class="english__title">ENGLISH</h2>
@@ -92,8 +102,8 @@
             <div class="footer__container container">
                 <nav class="footer__nav">
                     <ul class="nav__list footer-nav">
-                        <li class="nav__item"><a href="#" class="nav__link">Услуги</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">Портфолио</a></li>
+                        <li class="nav__item"><a href="#about__contacts" class="nav__link">CONTACTS</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">PROJECTS</a></li>
                     </ul>
                 </nav>
                 <div class="footer__contacts">
