@@ -1,0 +1,129 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+}
+.site-container {
+  color: #767c7b;
+  background-color: #fcfdf9;
+  font-size: 20px;
+}
+h1, h2 {
+  color: #2b2829;
+}
+h1 {
+  font-size: 35px;
+  letter-spacing: 17px;
+  margin: 20px 0px;
+}
+h2 {
+  margin: 20px 0;
+  background-color: #c4e0ca;
+  text-align: center;
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+}
+.photo {
+  width: 300px;
+  border-radius: 300px; 
+}
+.about {
+  background-color: #c4e0ca;
+}
+.section__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 50px;
+}
+.about {
+  padding: 10px 100px 30px 30px;
+}
+.section__right {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+.footer { 
+  background-color: #767c7b;
+  margin-top: 30px;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.footer__nav {
+  font-size: 18px;
+}
+.footer-nav {
+  flex-direction: column;
+  line-height: 33px;
+  margin: 0;
+  padding: 0;
+}
+.nav__item {
+  list-style-type: none;
+}
+.nav__link {
+  text-decoration: none;
+  color: white;
+}
+.footer__rs-school {
+  width: 100px;
+  padding-top: 15px;
+}
+.footer__name {
+  border-top: 1px solid #eaecef;
+  display: flex;
+  justify-content: center;
+}
+.footer__name a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 0;
+}
+.footer__contacts-list {
+  list-style-type: none;
+  margin-top: 5px;
+  margin-bottom: 0;
+  padding: 0;
+}
+.footer__contacts-list li {
+  padding-bottom: 12px;
+}
+.footer__phone, 
+.footer__e-mail {
+  text-decoration: none;
+  color: white;
+}
+.header {
+  background-color: #c4e0ca;
+  margin-bottom: 30px;
+}
+.nav__link-header {
+  color: #2b2829;
+  text-decoration: none;
+  padding-right: 40px;
+}
+.nav__list-header {
+  display: flex;
+  padding: 7px 0px;
+}
+.skills__text {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+.skills__item {
+  margin-bottom: 10px;
+}
+.contacts__phone {
+  margin-bottom: 10px;
+}
