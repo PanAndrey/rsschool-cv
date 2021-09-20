@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="script.js"></script>
+    
+    <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script> -->
+    <title>my cv</title>
+</head>
+
+<body>
+    <div class="site-container">
+        <header class="header">
+            <nav class="header__nav container">
+                <ul class="nav__list-header">
+                    <li class="nav__item-header"><a href="#about__contacts" class="nav__link-header">CONTACTS</a></li>
+                    <li class="nav__item-header"><a href="#projects" class="nav__link-header">PROJECTS</a></li>
+                </ul>
+            </nav>
+
+            <div class="burger-menu">
+                <a href="" class="burger-menu_button">
+                  <span class="burger-menu_lines"></span>
+                </a>
+                <nav class="burger-menu_nav">
+                  <a href="#about__contacts" class="burger-menu_link">CONTACTS</a>
+                  <a href="#projects" class="burger-menu_link">PROJECTS</a>
+                </nav>
+                <div class="burger-menu_overlay"></div>
+              </div>
+
+        </header>
+        <main>
+            <div class="container">
+                <section class="section__left">
+                    <div class="photo">
+                        <img class="photo"
+                            src="https://m.dom-eda.com/uploads/images/catalog/item/86df51de21/c25c94fe96_1000.jpg"
+                            alt="image not found">
+                    </div>
+                    <h1>PAN ANDREW</h1>
+                    <ul class="about">
+                      <li id="about__contacts">
+                        <h2 class="contacts__title">CONTACT DETAILS</h2>
+                        <div class="contacts__phone">phone: 8 999 999 99 99</div>
+                        <div class="contcts__email">e-mail: panadr09@gmail.com</div>
+                    </li>
+                        
+                        <li class="about__skills">
+                            <h2 class="skills__title">CORE SKILLS</h2>
+                            <ul class="skills__text">
+                              <li class="skills__item">HTML5</li>
+                              <li class="skills__item">CSS3, SASS</li>
+                              <li class="skills__item">JavaScript</li>
+                              <li class="skills__item">Git</li>
+                              <li class="skills__item">OOP</li>
+                              <li class="skills__item">English: B2</li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </section>
+                <section class="section__right">
+                    <ul>
+                        <li class="education">
+                            <h2>EDUCATION</h2>
+                            <div class="education__text">After 3 years of Saratov State Medical University I moved to
+                                China
+                                to study chinese in Shanghai in University of International Bussines and Economics</div>
+                        </li>
+                        <li class="code">
+                            <h2 class="code__title">CODE EXAMPLE</h2>
+                            <code class="code__text">
+                                <br>var i=0;<br>
+                                for (i=0;i&lt;=4;i++)<br>{<br>document.write("Число i равно " + i);<br>
+                                document.write(" &lt;br /&gt;");<br>}
+                                
+                              </code>
+                        </li>
+                        <li id="projects">
+                            <h2 class="projects__title">RECENT PROJECTS</h2>
+                            <ul class="projects__text">
+                                <li>
+                                    <a class="projects__link" href="https://rolling-scopes-school.github.io/panandrey-JSFE2021Q1/wildlife/" target="_blank"><h3>Wildlife</h3></a>
+                                    <div class="projects__desc">Simple landing page (core skills: CSS, HTML)</div>
+                                </li>
+                                <li>
+                                    <a class="projects__link" href="https://rolling-scopes-school.github.io/panandrey-JSFE2021Q1/virtual-piano/" target="_blank"><h3>Virtual Piano</h3></a>
+                                    <div  class="projects__desc">Virtual piano app (core skills: CSS, HTML, DOM, Fullscreen API)</div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="english">
+                            <h2 class="english__title">ENGLISH</h2>
+                            <div class="english__text">Upper-intermediate. I have been learning english for 10 years. I
+                                had
+                                to have frequent contact with native speakers because of my studies abroad</div>
+                        </li>
+
+                        <li class="about__personal-summary">
+                          <h2 class="personal-summary__title">PERSONAL SUMMARY</h2>
+                          <div class="personal-summary__text">I want to realize myself in IT, to be engaged in
+                              interesting and socially useful projects. I’m ready to improve myself and learn
+                              something new</div>
+                      </li>
+
+
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__contacts">
+                    <ul class="footer__contacts-list">
+                        <li>
+                            <a href="tel:vlad@htmlbook.ru" class="footer__phone">+7 999 999 99 99</a>
+                        </li>
+                        <li>
+                            <a href="mailto:vlad@htmlbook.ru" class="footer__e-mail">panadr09@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__links">
+                    <a href="https://rs.school/">
+                        <img class="footer__rs-school" src="https://rs.school/images/rs_school_js.svg"
+                            alt="image not found">
+                    </a>
+                </div>
+            </div>
+            <div class="footer__name"><a href="https://github.com/PanAndrey">&copy; Pan Andrew, 2021</a></div>
+        </footer>
+    </div>
+</body>
+
+</html>
